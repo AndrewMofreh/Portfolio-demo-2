@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+:root {
+    --theme-color: #20c997;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.backTitle {
+    font-size: 36px;
+}
+
+.head2 {
+    font-size: 100px !important;
+    opacity: 10%;
+}
+
+/*-----------------------------------------------------------Header section------------------------------------------------ */
+
+
+
+
+
+header {
+    background-image: linear-gradient(rgba(76, 77, 77, 0.5), rgba(76, 77, 77, 0.5)), url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0) !important;
+
+}
+
+.navbar-nav .nav-item .nav-link,
+.navbar-brand,
+.social {
+    color: white !important;
+}
+
+.myData p {
+    font-size: 28px;
+
+}
+
+.myData h2 {
+    font-size: 64px;
+}
+
+/* --------------------------------------------End of header section---------------------------------------- */
+/* --------------------------------------------About section---------------------------------------- */
+
+
+.knowMe button {
+    background-color: var(--theme-color);
+    border: 0px;
+
+
+}
+
+
+.backTitle::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid var(--theme-color);
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30px, 30px);
+    margin: 0 auto;
+
+
+}
+
+.statics {
+    font-size: 36px;
+}
+
+/* --------------------------------------------End of about section---------------------------------------- */
+/* --------------------------------------------service section---------------------------------------- */
+
+.service {
+    background-color: #d9dee3;
+}
+
+.service i {
+    font-size: 36px;
+    color: #20c997;
+}
+
+.icons {
+    background-color: white;
+    /* height: 75px; */
+}
+
+/* --------------------------------------------End of service section---------------------------------------- */
+/* --------------------------------------------resume section---------------------------------------- */
+
+.resume .date {
+    background-color: var(--theme-color);
+
+}
+
+.resume h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    height: 14px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #e9ecef;
+    padding-left: 0px;
+
+}
+
+.skill-per {
+    height: 14px;
+    /* max-width: 70%; */
+    background-color: var(--theme-color);
+
+}
+
+/* --------------------------------------------End of resume section---------------------------------------- */
+/* --------------------------------------------portfolio section---------------------------------------- */
+.portfolio {
+    background-color: #e9ecef;
+}
+
+
+.portfolio ul li {
+    list-style: none;
+}
+
+.portfolio ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio .shadow {
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.41);
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+
+
+
+.portfolio .image-box:hover .shadow {
+    opacity: 1;
+}
